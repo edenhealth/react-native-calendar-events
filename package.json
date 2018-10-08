@@ -1,30 +1,36 @@
 {
-  "name": "react-native-calendar-events",
-  "version": "1.6.3",
-  "author": "Will McMahan",
+  "name": "@edenhealth/react-native-calendar-events",
+  "description": "React Native module for iOS Calendar Events",
+  "version": "1.6.4",
+  "bugs": {
+    "url": "https://github.com/edenhealth/react-native-calendar-events/issues"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.9.17"
+  },
+  "homepage": "https://github.com/edenhealth/react-native-calendar-events",
+  "keywords": [
+    "android",
+    "calendar-events",
+    "eventkit",
+    "ios",
+    "react-component",
+    "react-native",
+    "reminders"
+  ],
   "license": "MIT",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "peerDependencies": {
+    "react-native": ">=0.56.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "scope": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wmcmahan/react-native-calendar-events"
+    "url": "https://github.com/edenhealth/react-native-calendar-events"
   },
-  "bugs": {
-    "url": "https://github.com/wmcmahan/react-native-calendar-events/issues"
-  },
-  "homepage": "https://github.com/wmcmahan/react-native-calendar-events",
-  "description": "React Native module for IOS Calendar Events",
-  "keywords": [
-    "react-native",
-    "react-component",
-    "ios",
-    "android",
-    "eventkit",
-    "reminders",
-    "calendar-events"
-  ],
-  "peerDependencies": {
-    "react-native": ">=0.40.0"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
